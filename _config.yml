@@ -9,15 +9,15 @@
 # Basic Site Settings
 title: "Chenxi Ji"
 name: "Chenxi Ji"
-description: "Ph.D. student at UIUC ECE"
+description: "Ph.D. Student in Computer Engineering at UIUC"
 
 url: "https://Chenxi-Ji.github.io"
 repository: "Chenxi-Ji/Chenxi-Ji.github.io"
 
 author:
-  avatar: "profile.jpg"
+  avatar: "profile.png"
   name: "Chenxi Ji"
-  bio: "Ph.D. student at UIUC ECE. My research focuses on verifiable visual control, neural rendering, robotics, and circuit diagram understanding."
+  bio: "Ph.D. student in Computer Engineering at the University of Illinois Urbana-Champaign. My research focuses on formal verification, trustworthy autonomy, neural rendering, controller synthesis, and 3D reconstruction."
   location: "Urbana-Champaign, IL"
   employer: "University of Illinois Urbana-Champaign"
   email: "chenxij2@illinois.edu"
