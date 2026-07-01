@@ -24,7 +24,7 @@ My research focuses on **formal verification, trustworthy autonomy, neural rende
 **Chenxi Ji\***, Yangge Li\*, Xiangru Zhong\*, Huan Zhang, and Sayan Mitra.  
 **NeurIPS 2025 Spotlight.**
 
-<img src="/images/absrend_result.png" alt="Abstract Rendering result" style="height: 300px; width: auto; max-width: 100%; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
+<img src="/images/absrend_result.png" alt="Abstract Rendering result" style="height: 400px; width: auto; max-width: 100%; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
 
 Abstract Rendering computes provable bounds on all images rendered under continuous camera-pose and scene variations. It propagates 3D uncertainty through Gaussian Splatting and NeRF, enabling certification of downstream vision models such as classifiers, detectors, and pose estimators. This supports formal reasoning beyond traditional pixel-level noise models.
 
@@ -38,7 +38,7 @@ Yangge Li, **Chenxi Ji**, Jai Anchalia, Yixuan Jia, Benjamin C. Yang, Daniel Zhu
 **L4DC 2025.**
 
 <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 8px; margin-bottom: 12px;">
-  <img src="/images/contract.png" alt="Lyapunov Perception Contract" style="height: 220px; width: auto; max-width: 100%; border-radius: 6px;">
+  <img src="/images/contract.png" alt="Lyapunov Perception Contract" style="height: 250px; width: auto; max-width: 100%; border-radius: 6px;">
   <img src="/images/reach_set.png" alt="Reach set for Lyapunov Perception Contract" style="height: 220px; width: auto; max-width: 100%; border-radius: 6px;">
 </div>
 
