@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-yearPh.D. student in Computer Engineering at the University of Illinois at Urbana-Champaign, advised by Prof. [Sayan Mitra](https://mitras.ece.illinois.edu/index.html). I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
+I am a fourth-year Ph.D. student in Computer Engineering at the University of Illinois at Urbana-Champaign, advised by Prof. [Sayan Mitra](https://mitras.ece.illinois.edu/index.html). I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
 
 My research focuses on **formal verification, trustworthy autonomy, neural rendering, 3D reconstruction, and controller synthesis**, with the goal of building reliable perception-control systems with formal guarantees.
 
