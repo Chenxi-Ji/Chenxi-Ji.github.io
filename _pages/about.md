@@ -7,58 +7,51 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Engineering at the University of Illinois Urbana-Champaign, advised by Prof. Sayan Mitra. I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
+I am a fourth-year Ph.D. student in Computer Engineering at the University of Illinois Urbana-Champaign, advised by Prof. Sayan Mitra. I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
 
 My research focuses on **formal verification, trustworthy autonomy, neural rendering, 3D reconstruction, and controller synthesis**, with the goal of building reliable perception-control systems with formal guarantees.
 
 ## News
 
-- **2025:** Our paper **Abstract Rendering: Certifying Rendering under 3D Semantic Uncertainty** was accepted as a Spotlight paper at NeurIPS 2025.
-- **2025:** Our paper **Reachability for Nonsmooth Systems with Lexicographic Jacobian** was accepted to TACAS 2025.
-- **2025:** Our papers on perception contracts and vision-based autonomy were accepted to L4DC 2025 and ICCPS 2025.
+- **Sep 2025:** Our paper **Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty** was accepted as a Spotlight paper at NeurIPS 2025.
+- **Mar 2025:** Our paper **Lyapunov Perception Contracts for Operating Design Domains** was accepted to L4DC 2025.
+- **Dec 2024:** Our paper **Reachability for Nonsmooth Systems with Lexicographic Jacobians** was accepted to TACAS 2025.
 
 ## Selected Publications
 
-### Abstract Rendering: Certifying Rendering under 3D Semantic Uncertainty
+### Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty
 
-<div style="display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 12px;">
-  <img src="/images/absrend_result.png" alt="Abstract Rendering result" style="width: 46%; min-width: 260px; border-radius: 6px;">
-  <img src="/images/classification_result.png" alt="Classification result" style="width: 46%; min-width: 260px; border-radius: 6px;">
-</div>
+**Chenxi Ji\***, Yangge Li\*, Xiangru Zhong\*, Huan Zhang, and Sayan Mitra.  
+**NeurIPS 2025 Spotlight.**
 
-**Chenxi Ji\***, Yangge Li\*, Xiangru Zhong\*, Huan Zhang, Sayan Mitra  
-**NeurIPS 2025 Spotlight**
+<img src="/images/absrend_result.png" alt="Abstract Rendering result" style="width: 85%; min-width: 300px; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
 
-We certify learning-based rendering algorithms under 3D semantic uncertainty. The method propagates uncertainty through neural rendering models such as Gaussian Splatting and NeRF. The results support reliable perception and visual autonomy under uncertain scene or camera conditions.
+Abstract Rendering computes provable bounds on all images rendered under continuous camera-pose and scene variations. It propagates 3D uncertainty through Gaussian Splatting and NeRF, enabling certification of downstream vision models such as classifiers, detectors, and pose estimators. This supports formal reasoning beyond traditional pixel-level noise models.
 
-[Paper](/files/abstract_rendering.pdf) / [Code](https://github.com/IllinoisReliableAutonomyGroup/Abstract-Rendering) / [Project Page](https://illinoisreliableautonomygroup.github.io/Abstract-Rendering-Webpage/)
+[Paper](/files/abstract_rendering_neurips2025.pdf) / [Project Page](https://illinoisreliableautonomygroup.github.io/Abstract-Rendering-Webpage/) / [Code](https://github.com/IllinoisReliableAutonomyGroup/Abstract-Rendering) / [BibTeX](/files/bibtex/abstract_rendering_neurips2025.txt)
 
 ---
 
-### Perception Contracts for Vision-based Autonomy
+### Lyapunov Perception Contracts for Operating Design Domains
 
-<div style="margin-bottom: 12px;">
-  <img src="/images/env_params.png" alt="Perception contract environment parameters" style="width: 70%; min-width: 300px; border-radius: 6px;">
-</div>
+Yangge Li, **Chenxi Ji**, Jai Anchalia, Yixuan Jia, Benjamin C. Yang, Daniel Zhuang, and Sayan Mitra.  
+**L4DC 2025.**
 
-**Chenxi Ji**, Yangge Li, Jai Anchalia, Joshua Neighbor, Prashin S. Sharma, Sayan Mitra  
-**ACM TCPS submission, 2026**
+<img src="/images/env_params.png" alt="Lyapunov Perception Contract environment parameters" style="width: 85%; min-width: 300px; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
 
-We study perception contracts for reasoning about reliability in vision-based autonomy. The framework connects perception uncertainty with downstream closed-loop stability and safety analysis. It provides a principled way to certify autonomy systems under operating-domain variations.
+Lyapunov Perception Contracts provide specifications for DNN-based state estimators that guarantee closed-loop stability. The framework connects image rendering, environmental parameters, perception uncertainty, and controller dynamics. It can synthesize operating design domains for visual controllers under lighting, weather, and other environmental variations.
 
-[Paper](/files/perception_contract.pdf)
+[Paper](/files/lyapunov_perception_contracts_l4dc2025.pdf) / [BibTeX](/files/bibtex/lyapunov_perception_contracts_l4dc2025.txt)
 
 ---
 
-### Reachability for Nonsmooth Systems with Lexicographic Jacobian
+### Reachability for Nonsmooth Systems with Lexicographic Jacobians
 
-<div style="margin-bottom: 12px;">
-  <img src="/images/nonsmooth_reach.png" alt="Nonsmooth reachability" style="width: 70%; min-width: 300px; border-radius: 6px;">
-</div>
+**Chenxi Ji**, Huan Zhang, and Sayan Mitra.  
+**TACAS 2025.**
 
-**Chenxi Ji**, Huan Zhang, Sayan Mitra  
-**TACAS 2025**
+<img src="/images/nonsmooth_reach.png" alt="Nonsmooth reachability" style="width: 85%; min-width: 300px; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
 
-We develop reachability analysis methods for nonsmooth dynamical systems. The approach uses lexicographic Jacobians to reason about systems where standard differentiability assumptions fail. It enables formal verification of broader classes of neural and hybrid dynamical systems.
+This work develops reachability analysis for nonsmooth dynamical systems using lexicographic Jacobians. The method avoids hybridizing nonsmooth systems into separate smooth modes and improves reachset accuracy across mode boundaries. It also supports verification of ReLU neural ODEs and other nonsmooth models.
 
-[Paper](/files/nonsmooth_reachability.pdf)
+[Paper](/files/nonsmooth_reachability_tacas2025.pdf) / [BibTeX](/files/bibtex/nonsmooth_reachability_tacas2025.txt)
