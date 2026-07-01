@@ -7,9 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-yearPh.D. student in Computer Engineering at the University of Illinois Urbana-Champaign, advised by Prof. [Sayan Mitra](https://mitras.ece.illinois.edu/index.html). I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
+I am a fourth-yearPh.D. student in Computer Engineering at the University of Illinois at Urbana-Champaign, advised by Prof. [Sayan Mitra](https://mitras.ece.illinois.edu/index.html). I received my B.Eng. in Automation from Tsinghua University, with a minor in Data Science.
 
 My research focuses on **formal verification, trustworthy autonomy, neural rendering, 3D reconstruction, and controller synthesis**, with the goal of building reliable perception-control systems with formal guarantees.
+
+## Educations
+
+- 2022.09 - present, Ph.D. in Computer Engineering, University of Illinois at Urbana-Champaign.
+- 2018.09 - 2022.06, B.Eng. in Automation, Tsinghua University. Minor in Data Science.
 
 ## News
 
@@ -28,7 +33,7 @@ My research focuses on **formal verification, trustworthy autonomy, neural rende
 
 Abstract Rendering computes provable bounds on all images rendered under continuous camera-pose and scene variations. It propagates 3D uncertainty through Gaussian Splatting and NeRF, enabling certification of downstream vision models such as classifiers, detectors, and pose estimators. This supports formal reasoning beyond traditional pixel-level noise models.
 
-[Paper](/files/abstract_rendering_neurips2025.pdf) / [Poster](/files/absrend_poster_neurips25.pdf) / [Project Page](https://illinoisreliableautonomygroup.github.io/Abstract-Rendering-Webpage/) / [Code](https://github.com/IllinoisReliableAutonomyGroup/Abstract-Rendering) / [BibTeX](/files/bibtex/abstract_rendering_neurips2025.txt)
+[Paper](/files/abstract_rendering_neurips2025.pdf) / [Poster](/files/absrend_poster_neurips25.pdf) / [Slides](/files/slides/absrend_5min.pptx) / [Project Page](https://illinoisreliableautonomygroup.github.io/Abstract-Rendering-Webpage/) / [Code](https://github.com/IllinoisReliableAutonomyGroup/Abstract-Rendering) / [BibTeX](/files/bibtex/abstract_rendering_neurips2025.txt)
 
 ---
 
@@ -57,4 +62,4 @@ Lyapunov Perception Contracts provide specifications for DNN-based state estimat
 
 This work develops reachability analysis for nonsmooth dynamical systems using lexicographic Jacobians. The method avoids hybridizing nonsmooth systems into separate smooth modes and improves reachset accuracy across mode boundaries. It also supports verification of ReLU neural ODEs and other nonsmooth models.
 
-[Paper](/files/nonsmooth_reachability_tacas2025.pdf) / [Poster](/files/nonsmooth_reach_poster_tacas25.pdf) / [BibTeX](/files/bibtex/nonsmooth_reachability_tacas2025.txt)
+[Paper](/files/nonsmooth_reachability_tacas2025.pdf) / [Poster](/files/nonsmooth_reach_poster_tacas25.pdf) / [Slides](/files/slides/nonsmooth_reach_15min.pptx) / [BibTeX](/files/bibtex/nonsmooth_reachability_tacas2025.txt)
