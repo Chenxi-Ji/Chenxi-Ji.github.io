@@ -15,13 +15,14 @@ url: "https://Chenxi-Ji.github.io"
 repository: "Chenxi-Ji/Chenxi-Ji.github.io"
 
 author:
-  avatar: "profile.png"
+  avatar: "profile.jpg"
   name: "Chenxi Ji"
-  bio: "Ph.D. student in Computer Engineering at the University of Illinois Urbana-Champaign. My research focuses on formal verification, trustworthy autonomy, neural rendering, controller synthesis, and 3D reconstruction."
+  bio: "Ph.D. student in Computer Engineering at the University of Illinois Urbana-Champaign."
   location: "Urbana-Champaign, IL"
   employer: "University of Illinois Urbana-Champaign"
   email: "chenxij2@illinois.edu"
   github: "Chenxi-Ji"
+  google-scholar: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=ACrTK9VTumvAjXEyIVon5v_Geh2DPLcL0qotb7FIyMf8JaW9pyyMqztonTp-5Su4jXE4pNGvVgcC7uIrRbS-esbgyJKT&user=5AA-L4wAAAAJ"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
