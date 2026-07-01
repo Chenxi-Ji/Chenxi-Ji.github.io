@@ -13,8 +13,9 @@ My research focuses on **formal verification, trustworthy autonomy, neural rende
 
 ## Educations
 
-- 2022.09 - present, Ph.D. in Computer Engineering, University of Illinois at Urbana-Champaign.
-- 2018.09 - 2022.06, B.Eng. in Automation, Tsinghua University. Minor in Data Science.
+*2022.09 - present, Ph.D. in Computer Engineering, University of Illinois at Urbana-Champaign.*
+
+*2018.09 - 2022.06, B.Eng. in Automation, Tsinghua University. Minor in Data Science*
 
 ## News
 
