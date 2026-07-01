@@ -1,36 +1,30 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Publications
 
-{% include base_path %}
+**Abstract Rendering: Certifying Rendering under 3D Semantic Uncertainty**  
+Chenxi Ji*, Yangge Li*, Xiangru Zhong*, Huan Zhang, Sayan Mitra  
+Spotlight, Conference on Neural Information Processing Systems (**NeurIPS**), 2025  
+[Project Page](https://illinoisreliableautonomygroup.github.io/Abstract-Rendering-Webpage/) / [Code](https://github.com/IllinoisReliableAutonomyGroup/Abstract-Rendering)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+**Reachability for Nonsmooth Systems with Lexicographic Jacobian**  
+Chenxi Ji, Huan Zhang, Sayan Mitra  
+International Conference on Tools and Algorithms for Construction and Analysis of Systems (**TACAS**), 2025
 
+**Lyapunov Perception Contracts for Operating Design Domains**  
+Yangge Li, Chenxi Ji, Jai Anchalia, Sayan Mitra  
+Learning for Dynamics & Control Conference (**L4DC**), 2025
 
+**Verifying Vision-based Autonomy with Abstract Rendering and Perception Contracts**  
+Yangge Li, Chenxi Ji, Sayan Mitra  
+International Conference on Cyber-Physical Systems (**ICCPS**), 2025
 
+## Preprints and Submissions
+
+**Perception Contracts for Reasoning about Reliability of Visual Autonomy: Incremental Stability Certificates**  
+Chenxi Ji, Yangge Li, Jai Anchalia, Joshua Neighbor, Prashin S. Sharma, Sayan Mitra  
+Submitted to ACM Transactions on Cyber-Physical Systems (**TCPS**), 2026
