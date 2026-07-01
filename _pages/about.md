@@ -39,7 +39,7 @@ Yangge Li, **Chenxi Ji**, Jai Anchalia, Yixuan Jia, Benjamin C. Yang, Daniel Zhu
 
 <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 8px; margin-bottom: 12px;">
   <img src="/images/contract.png" alt="Lyapunov Perception Contract" style="height: 250px; width: auto; max-width: 100%; border-radius: 6px;">
-  <img src="/images/reach_set.png" alt="Reach set for Lyapunov Perception Contract" style="height: 220px; width: auto; max-width: 100%; border-radius: 6px;">
+  <img src="/images/reach_set.png" alt="Reach set for Lyapunov Perception Contract" style="height: 250px; width: auto; max-width: 100%; border-radius: 6px;">
 </div>
 
 Lyapunov Perception Contracts provide specifications for DNN-based state estimators that guarantee closed-loop stability. The framework connects image rendering, environmental parameters, perception uncertainty, and controller dynamics. It can synthesize operating design domains for visual controllers under lighting, weather, and other environmental variations.
@@ -53,7 +53,7 @@ Lyapunov Perception Contracts provide specifications for DNN-based state estimat
 **Chenxi Ji**, Huan Zhang, and Sayan Mitra.  
 **TACAS 2025.**
 
-<img src="/images/nonsmooth_reach.png" alt="Nonsmooth reachability" style="width: 85%; min-width: 300px; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
+<img src="/images/relu-ode-reach.png" alt="Nonsmooth reachability" style="height: 400px; width: auto; max-width: 100%; border-radius: 6px; margin-top: 8px; margin-bottom: 12px;">
 
 This work develops reachability analysis for nonsmooth dynamical systems using lexicographic Jacobians. The method avoids hybridizing nonsmooth systems into separate smooth modes and improves reachset accuracy across mode boundaries. It also supports verification of ReLU neural ODEs and other nonsmooth models.
 
